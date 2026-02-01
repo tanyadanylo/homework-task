@@ -1,0 +1,29 @@
+body{
+    font-family: 'SN Pro', sans-serif;
+    font-size: 14px;
+    color: #1D1B1B;
+    margin: 50px;
+}
+.main h1{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+}
+.container h1 img{
+    padding: 10px;
+}
+.photo {
+    height: 190px;
+    width: 220px;
+}
+.wrapper{
+    border: 1px solid #5D5B5B;
+    border-radius: 35px;
+    overflow: hidden;
+}
