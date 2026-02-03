@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+footer{
+    height: 22vh;
+    background-color:rgba(217, 217, 217, 1);
+;
+}
+main{
+    height: 56vh;
+    display: flex;
+}
+section{
+    height: 56vh;
+    width: 46vw;
+    background-color: #A4A4A4;
+}
+aside{
+    height: 100%;
+    width: 27vw;
+    background: rgba(192, 189, 189, 1);;
+}

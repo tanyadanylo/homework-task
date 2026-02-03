@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+footer{
+    height: 22vh;
+    background-color:rgba(217, 217, 217, 1);
+;
+}
+section{
+    height: 56vh;
+    background: rgba(164, 164, 164, 1);
+}

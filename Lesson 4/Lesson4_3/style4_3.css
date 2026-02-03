@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+footer{
+    height: 22vh;
+    background-color:rgba(217, 217, 217, 1);
+}
+main{
+    height: 56vh;
+    display: flex;
+}
+div{
+    width: 46vw;
+}
+.section__grey{
+    height: 26vh;
+    background-color:#827878;
+}
+.section__light{
+    background-color:#B7ADAD;
+    height: 30vh;
+}
+aside{
+    height: 100%;
+    width: 27vw;
+    background: rgba(192, 189, 189, 1);;
+}
