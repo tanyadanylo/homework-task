@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1340px;
+}
+body{
+    background-color: #1E1E1E;
+}
+.menu ul{
+    display: flex;
+    gap: 59px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 36px;
+    color: #E9E3DC;
+}
+ul li a{
+    color: #E9E3DC;
+    font-family: Bowlby One, cursive;
+    font-size: 18px;
+    line-height: 97%;
+    text-transform: uppercase;
+}
+.nav__active-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 60px;
+    opacity: 1;
+    background-color: rgba(179, 160, 205, 1);
+    color: rgba(30, 30, 30, 1);
+}
+.main__title{
+    font-family: Bowlby One, sans-serif;
+    font-weight: 400;
+    font-size: 107.09px;
+    line-height: 89%;
+    letter-spacing: -2%;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(233, 227, 220, 1);
+    width: 1255px;
+    height: 285px;
+    margin: 74px auto 33px auto;
+
+}
+.main__photo{
+    display: block;
+    margin: 0 auto;
+}
+.about_us__section{
+    display: flex;
+    align-items: center;
+    width: 1340px;
+    height: 369px;
+    border-radius: 30px;
+    border-width: 4px;
+    background-color: rgba(209, 239, 83, 1);
+    margin: 32px auto 64px auto;
+}
+.about_us-title{
+    font-family: Bowlby One, sans-serif;
+    font-size: 70px;
+    line-height: 89%;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    width: 533px;
+    color: rgba(30, 30, 30, 1);
+    margin: 98px 28px 85px 109px;
+}
+.about_us-description{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -2%;
+    color: rgba(30, 30, 30, 1);
+    width: 521px;
+}
+.about_us-button{
+    width: 176px;
+    height: 60px;
+    background-color: rgba(233, 227, 220, 1);
+    border: 4px solid rgba(30, 30, 30, 1);
+    box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 1);
+    font-family: Bowlby One, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(30, 30, 30, 1);
+}
+.about_us-aside{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.photo__section{
+    display: flex;
+    gap: 40px;
+}
+.photo__section img{
+    width: 650px;
+    height: 753px;
+}
+.order__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 64px auto 36px auto;
+}
+.order__section-title{
+    font-family: Bowlby One, sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 102%;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(233, 227, 220, 1);
+    width: 895px;
+    height: 142px;
+    margin: 64px auto 33px auto;
+}
+.order__section-button{
+    width: 196px;
+    height: 60px;
+    background-color: rgba(209, 239, 83, 1);
+    border: none;
+    font-family: Bowlby One, sans-serif;
+    font-size: 18px;
+    line-height: 97%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(30, 30, 30, 1);
+}
