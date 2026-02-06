@@ -1,0 +1,23 @@
+*{
+    list-style-type: none;
+}
+/*.block-1 ul li:nth-child(2n){*/
+/*    color: deeppink;*/
+/*}*/
+
+.block-1 ul li:nth-child(even){
+    color: deeppink;
+}
+.block-2 ul li:nth-child(odd){
+    font-size: 22px;
+}
+.block-3 ul li:nth-child(2n+4)::after{
+    content: "!";
+}
+.block-4 li:last-of-type{
+    color: purple;
+}
+.block-5 li::first-letter{
+    font-size: 30px;
+    color: red;
+}
