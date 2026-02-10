@@ -1,0 +1,8 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .pictures-section {
+        width: 780px;
+    }
+    .picture-container{
+        width: 218px;
+    }
+}
