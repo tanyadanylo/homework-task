@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20% 20% 10% 10% 20% 20%;
+    grid-template-areas:
+    "header header"
+    "content-up spam-1"
+    "content-center spam-1"
+    "content-center spam-2"
+    "content-bottom spam-2"
+    "footer footer";
+}
+
+.wrapper > div,
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.wrapper > div {
+    color: rgba(255, 255, 255, 1);
+}
+
+.wrapper {
+}
+
+header {
+    grid-area: header;
+    background-color: rgba(141, 132, 132, 1);
+}
+
+.content-up {
+    grid-area: content-up;
+    background-color: rgba(119, 105, 105, 1);
+}
+
+.content-center {
+    grid-area: content-center;
+    background-color: rgba(100, 48, 48, 1);
+}
+
+.content-bottom {
+    grid-area: content-bottom;
+    background-color: rgba(68, 24, 24, 1);
+}
+
+.spam-1 {
+    grid-area: spam-1;
+    background-color: rgba(147, 117, 117, 1);
+}
+
+.spam-2 {
+    grid-area: spam-2;
+    background-color: rgba(100, 76, 76, 1);
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgba(189, 189, 189, 1);
+}
